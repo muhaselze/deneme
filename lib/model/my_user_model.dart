@@ -43,7 +43,7 @@ class MyUser {
   }
 
   String randomSayiUret() {
-    int rastgeleSayi = Random().nextInt(999999);
+    int rastgeleSayi = Random().nextInt(9999999999);
     return rastgeleSayi.toString();
   }
 }
